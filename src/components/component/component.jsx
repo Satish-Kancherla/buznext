@@ -91,7 +91,7 @@ export function Component() {
         <div className={`flex flex-col min-h-screen ${isDarkMode ? "bg-primary text-secondary" : "bg-white text-black"}`}>
             <header className="fixed top-0 left-0 right-0 bg-primary text-secondary py-2 px-6 md:py-4 md:px-10 shadow-lg z-50">
                 <div className="container mx-auto flex items-center justify-between">
-                    <Link href="#home" className="flex items-center gap-2" prefetch={false}>
+                    <Link href="#home" className="flex items-center gap-2 cursor-none" prefetch={false}>
                         <img src="logo1.png" className="h-12" alt="Logo" />
                     </Link>
                     <nav className="hidden md:flex items-center gap-8 text-lg font-semibold">
