@@ -52,7 +52,7 @@ const VantaEffect = () => {
   return (
     <div id="vanta-container" className="w-full h-screen sm:h-[50vh] md:h-[75vh] lg:h-screen">
       <div className="flex justify-center items-center text-center h-full w-full">
-        <div className="text-white text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-extrabold">
+        <div className="text-white text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-extrabold cursor-not-allowed">
           Business | Marketing | Web Development | SEO
         </div>
       </div>
